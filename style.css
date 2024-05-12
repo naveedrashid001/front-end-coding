@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    background-color: blueviolet;
+    width: 100%;
+    height: 300px;
+}
+#div-form{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    width: 30%;
+    margin: 0px auto;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 80px;
+}
+form{
+    padding: 7px 10px;
+    margin: 4px 0px;
+}
+.div-1{
+    margin: 4px 0px;
+
+    padding: 6px;
+    width: 90%;
+    box-sizing: border-box;
+}
+button{
+    padding: 6px;
+    margin-top: 6px;
+    color: black;
+    font-weight: bold;
+    background-color: aqua;
+    border: none;
+}
+.stacky{
+    width: 100%;
+    /* height: 30px; */
+    background-color:rgb(154, 88, 215);
+    color: black;
+    border-radius: 4px;
+    position: sticky;
+    top: 5px;
+    left: 5px;
+
+}
+.stacky> h1{
+    text-align: center;
+    padding: 4px;
+}
+.fixed{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(231, 43, 43);
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+}
